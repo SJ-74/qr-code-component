@@ -44,28 +44,30 @@ body {
   max-width: 320px;
   padding: 1em;
   margin-inline: 2rem;
-  border-radius: 15px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 5px 10px 5px rgba(156, 156, 156, 0.3);
+          box-shadow: 0 5px 10px 5px rgba(156, 156, 156, 0.3);
 }
 
 .main__image {
   max-width: 100%;
-  border-radius: 15px;
+  border-radius: 20px;
 }
 
-.main__text__section {
+.main__text {
   padding-inline: 0.75rem;
 }
 
 .main__title {
   color: #1f3251;
-  font-size: 1.25rem;
+  font-size: 1.375rem;
   margin-block: 1rem;
 }
 
 .main__content {
   color: #7b879d;
   font-size: 0.9375rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .attribution {
