@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
-$bg-body : hsl(212, 45%, 89%);
+$bg-body : hsl(212, 46%, 89%);
 $bg-main : hsl(0, 0%, 100%);
 $main-title-clr : hsl(218, 44%, 22%);
 $main-content-clr : hsl(220, 15%, 55%);
-$brd-radius : 15px;
+$brdr-radius : 20px;
 
 *{
     margin : 0;
@@ -37,22 +37,23 @@ body{
 
     padding : 1em;
     margin-inline : 2rem;
-    border-radius : $brd-radius;
+    border-radius : $brdr-radius;
+    box-shadow: 0 5px 10px 5px rgba(156, 156, 156, 0.3);
 
     &__image{
         max-width : 100%;
 
-        border-radius : $brd-radius;
+        border-radius : $brdr-radius;
     }
 
-    &__text__section{
+    &__text{
         padding-inline : 0.75rem;
     }
 
     &__title{
         color : $main-title-clr;
 
-        font-size : 1.25rem;
+        font-size : 1.375rem;
 
         margin-block : 1rem;
     }
@@ -62,7 +63,7 @@ body{
 
         font-size : 0.9375rem;
 
-        margin-bottom : 1.5rem;
+        margin-bottom : 1rem;
     }
 }
 
